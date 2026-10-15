@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero h1 {
+    font-size: clamp(48px, 6.2vw, 78px);
+    line-height: 0.99;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.hero {
+    text-align: center;
+    margin: 75px auto 0;
+    padding: 0 20px;
+}
+.hero-head{
+    color: white;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    text-align: left;
+    margin-top: 22px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.projects {
+    min-height: 420px;
+    margin-top: 58px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.photo-stack {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-top: 0;
+}
+
+.photo {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: -10%;
+    left: -10%;
+    border:px solid rgb(153, 113, 13);
+    box-shadow: 0px 1px 20px 10px rgb(85, 84, 84);
+}
+
+.name1 {
+    position: absolute;
+    left: 20%;
+    font-size: clamp(30px, 2.2vw, 78px);
+}
+
+.name2 {
+    position: absolute;
+    left: 70%;
+    font-size: clamp(30px, 2.2vw, 78px);
+}

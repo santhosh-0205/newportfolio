@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-color: #0d0d0d;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding: 35px 4.2%;
+    min-height: 100vh;
+}
+
+
+
+.contact-info h1 {
+    font-family: Georgia, serif;
+    font-size: 58px;
+    font-weight: 400;
+    margin-bottom: 85px;
+}
+
+.info-block {
+    margin-bottom: 65px;
+}
+
+.info-block h4 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #777777;
+    margin-bottom: 18px;
+}
+
+.info-block p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #999999;
+}
+
+.contact-form {
+    padding-top: 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333333;
+
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 16px 0;
+    margin-bottom: 30px;
+}
+
+.contact-form input {
+    height: 63px;
+}
+
+.contact-form textarea {
+    height: 147px;
+    resize: vertical;
+    margin-bottom: 49px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #555555;
+    opacity: 2;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-bottom-color: #aaaaaa;
+}
+
+.contact-form button {
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border: 1px solid #555555;
+    color: #eeeeee;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #eeeeee;
+    color: #111111;
+}
+
+/* MOBILE RESPONSIVE */
+
+/* @media (max-width: 768px) {
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 30px 6%;
+    }
+
+    .contact-info h1 {
+        font-size: 46px;
+        margin-bottom: 45px;
+    }
+
+    .info-block {
+        margin-bottom: 35px;
+    }
+
+    .contact-form {
+        margin-top: 10px;
+    }
+} */
